@@ -1,0 +1,14 @@
+unit1 = int(input("Enter the first unit: "))
+unit2 = int(input("Enter the second unit: "))
+unit3 = int(input("Enter the third unit: "))
+avg=(unit1+unit2+unit3)/3
+if ((unit1+unit2+unit3)/3  >= 70 and (unit1+unit2+unit3)/3<= 100):
+     print ("average score is :" + str(avg) + "Average Grade is A")
+elif ((unit1+unit2+unit3)/3 >= 60 and (unit1+unit2+unit3)/3<= 69):
+     print ("average score is :" + str(avg) + "Average Grade is B")
+elif ((unit1+unit2+unit3)/3 >= 50 and (unit1+unit2+unit3)/3<= 59):
+     print ("average score is :" + str(avg) + "Average Grade is C")
+elif ((unit1+unit2+unit3)/3 >= 40 and (unit1+unit2+unit3)/3<= 49):
+     print ("average score is :" + str(avg) + "Average Grade is D")
+elif ((unit1+unit2+unit3)/3 >= 0 and (unit1+unit2+unit3)/3<= 39):
+     print ("average score is :" + str(avg) + "Average Grade is E")
